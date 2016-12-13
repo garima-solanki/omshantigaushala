@@ -1,0 +1,12 @@
+﻿<div class="row">
+    <div ng-repeat="img in GalleryImages" class="col-lg-3">
+        <a href="#/photos/{{img.text}}" class="galleryClass">
+            <span>
+                <img src="Images/{{img.url}}" />
+            </span>
+            <span>
+                <label style="color:#ff6a00">{{img.text}}</label>
+            </span>
+        </a>
+    </div>
+</div>
