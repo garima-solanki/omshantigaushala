@@ -135,3 +135,20 @@
      font-size:20px;
     color:grey;
 }
+.photoCls{
+    margin-right:5px;
+    margin-left:-30px;
+}
+.padCls{
+    padding-top: 20px;
+}
+.backBtnCls{
+     margin-left: 30px;
+    font-size: 20px;
+    color: burlywood;
+    font-style: oblique;
+    font-weight: bold;
+}
+.whiteCls{
+    color:white;
+}

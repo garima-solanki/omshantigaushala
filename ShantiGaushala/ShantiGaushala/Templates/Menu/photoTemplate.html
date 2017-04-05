@@ -26,11 +26,13 @@
     </div>
 </script>
 
-<div class="row">
-    <div ng-repeat="display in displayedImages" class="col-lg-3">
+<div class="row photoCls">
+
+    <a href="#/gallery" class="backBtnCls"><span>Go back to Gallery</span></a><br />
+    <div ng-repeat="display in displayedImages" class="col-lg-3 padCls">
         <a href="" ng-click="open('lg','',displayedImages)" data-target="#myModal" data-toggle="modal" class="galleryClass">
             <span>
-                <img src="Images/{{display}}" />
+                <img src="Images/{{display}}"style="margin:auto; height:155px; width:210px;" />
             </span>
         </a>
     </div>

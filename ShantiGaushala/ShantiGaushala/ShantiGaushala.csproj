@@ -114,6 +114,7 @@
     <Content Include="Images\IMG_9602.JPG" />
     <Content Include="Images\logo2.jpg" />
     <Content Include="Images\shlok.jpg" />
+    <Content Include="Images\shlokCow.jpg" />
     <Content Include="Images\Uses of Cow Milk.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular-route.js" />
